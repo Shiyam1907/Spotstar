@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+        <!-- Forget Passord-page -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="/JS/Verify OTP.js"></script>
+    <title>OTP Verification</title>
+</head>
+<body>  
+    <div class="container">
+    <div class="box">
+        <div class="header">
+            <p>OTP Verification</p>
+        </div>
+        <div class="input-box">
+            <label for="email">Enter OTP</label>
+            <input type="number" class="input-field" id="otp" required>
+            <i class='bx bxs-chat' ></i>
+        </div>
+        <div class="input-box">
+            <input type="submit" class="input-submit" value="Re-Set OTP" onclick="Resend()">
+        </div>
+        <div class="input-box1">
+            <input type="submit" class="input-submit1" value="Confirm OTP" onclick="Verify_OTP()">
+        </div>
+    </div>
+    <div class="wrapper"></div>
+    </div>
+</body>
+</html>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'nunito', sans-serif;
+    font-weight: 600;
+}
+body{
+    background-color: #91908cbe;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+.box{
+    width: 450px;
+    height: 350px;
+    background: #fff;
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 2px 2px 15px 2px rgba(0,0,0,0.1),
+                -2px -0px 15px 2px rgba(0,0,0,0.1);
+    z-index: 10;
+}
+.wrapper{
+    position: absolute;
+    width: 455px;
+    height: 350px;
+    border-radius: 30px;
+    background: rgba(255,255,255,0.53);
+    box-shadow: 2px 2px 15px 2px rgba(0,0,0,0.115),
+                -2px -0px 15px 2px rgba(0,0,0,0.054);
+    transform: rotate(5deg);
+}
+.header{
+    margin-bottom: 20px;
+}
+.header header{
+    display: flex;
+    justify-content: right;
+}
+header img{
+    width: 25px;
+}
+.header p{
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin: 1px 0;
+    padding-top: 1px;
+    position: relative;
+}
+i{
+    font-size: 22px;
+    position: absolute;
+    top: 40px;
+    right: 12px;
+    color: #595b5e;
+}
+#phone{
+    
+    font-size: 22px;
+    position: absolute;
+    top: 39px;
+    right: 12px;
+    color: #595b5e;
+    
+}
+input{
+    height: 40px;
+    border: 2px solid rgb(153,157,158);
+    border-radius: 7px;
+    margin: 7px 0;
+    outline: none;
+}
+.input-field{
+    font-weight: 500;
+    padding: 10px;
+    font-size: 17px;
+    color: #333;
+    background: transparent;
+    transition: all .3s ease-in-out;
+}
+.input-field:focus{
+    border:2px solid rgb(89,53,180);
+}
+.input-field:focus ~ i{
+    color: rgb(89,53,180);
+}
+.input-submit{
+    margin-top: 28px;
+    width: 140px;
+    background: #1e263a;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.input-submit1{
+    position: absolute;
+    top:58.3%;
+    left: 59.4%;
+    width: 140px;
+    background: #1e263a;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.input-submit:hover{
+    background: #122b71;
+}
+.input-submit1:hover{
+    background: #122b71;
+}
+</style>

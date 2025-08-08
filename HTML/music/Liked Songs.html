@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="allmusic.css"> -->
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div>
+            <p class="tit">Liked Played</p>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td><img class="circular-image" src="/Music img 2/laapataa-ladies-hindi-2024.webp" alt=""></td>
+                </tr>
+                <tr><td><img class="circular-image" src="/Music img 1/doctor-tamil-2021.webp" alt=""></td></tr>
+                    <tr><td><img class="circular-image" src="/Music img 1/don-tamil-2022.webp" alt=""></td></tr>
+                    <tr><td><img class="circular-image" src="/Music img 2/sanga-thamizhan-2019.webp" alt=""></td></tr>
+                    <tr><td><img class="circular-image" src="/Music img 2/velaikkaran-2017.webp" alt=""></td></tr>
+                    <tr><td><img class="circular-image" src="/Music img 2/kolamavu-kokila-coco-2018.webp" alt=""></td></tr>
+            </table>
+        </div>
+    <div id="mus">
+        <div>
+                <audio class="music1" src="/Audio part 2/laapatta.mpeg "controls ></audio>
+        </div>
+        <div>
+            <audio class="music2" src="/Audio part 1/Chellamma-MassTamilan.fm.mp3" controls></audio>
+        </div>
+        <div>
+            <audio class="music3" src="/Audio part 4/Private-Party-MassTamilan.dev.mp3" controls></audio>
+        </div>
+        <div>
+            <audio class="music4" src="/Audio part 4/Sandakari-Neethan-MassTamilan.org.mp3" controls></audio>
+        </div>
+        <div>
+            <audio class="music5"  src="/Audio part 3/Iraiva-Ennai-Thedi-MassTamilan.com.mp3" controls></audio>
+        </div>
+        <div>
+            <audio class="music6"  src="/Audio part 4/Orey-Oru-MassTamilan.com.mp3" controls></audio>
+        </div>
+    </div>
+    <div>
+        <a href="/HTML/music/musicpage.html"><i id="cross" class="fa-solid fa-xmark"></i></a>
+    </div>
+
+
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#91908cbe;
+}
+    .tit{
+        font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    color: #1e263a;
+    background-color:rgba(0, 0, 255, 0.197);
+    border-radius: 50px;
+    }
+    .img{
+        width: 240px; /* Adjust the width as needed */
+    height: 240px; /* Adjust the height as needed */
+    border-radius: 8%;
+    margin-left: 100px;
+    margin-top: 100px;
+    }
+.img:hover{
+    /* border: white 5px solid; */
+    border-radius: 20px;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.about{
+    position: absolute;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:70%;
+    top: 30%;
+    margin-left: 400px;
+    color: rgba(0, 0, 0, 0.816);
+    
+    
+}
+.circular-image {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left:400px;
+    margin-top: 20px;
+    
+}
+.circular-image:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    
+}
+.circular-image img :hover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#mus{
+    position: absolute;
+    top: 21%;
+    left: 50%;
+}
+.music1{
+    border: solid;
+    border-radius: 300px;
+    border-color: #1e263a;
+}
+.music2{
+    border: solid;
+    border-radius: 300px;
+    margin-top: 160px;
+    border-color: #1e263a;
+}
+.music3{
+    border: solid;
+    border-radius: 300px;
+    margin-top: 160px;
+    border-color: #1e263a;
+}
+.music4{
+    border: solid;
+    border-radius: 300px;
+    margin-top: 160px;
+    border-color: #1e263a;
+}
+.music5{
+    border: solid;
+    border-radius: 300px;
+    margin-top: 165px;
+    border-color: #1e263a;
+}
+.music6{
+    border: solid;
+    border-radius: 300px;
+    margin-top: 165px;
+    border-color: #1e263a;
+}
+#cross{
+    position: absolute;
+    color:#1e263a;
+    font-size: 25px;
+    top: 21.7px;
+    left: 1480px;
+
+}
+
+
+
+    </style>
+</body>
+</html>
+

@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgba(0, 0, 0, 0.948);
+}
+#logo{
+    position: absolute;
+    height:65px;
+    top: 20px;
+    margin-left: 10px;
+    position: fixed;
+}
+#logo1{
+    position: absolute;
+    font-size: 30px;
+    top: 19px;
+    margin-left: 68px;
+    color:rgb(238, 238, 149);
+}
+#main-img{
+    position: absolute;
+    height: 640px;
+    width: 1422px;
+    margin-left: 97px;
+    top: 69.5px;
+    border-color: white ;
+    border-radius: 8px;
+}
+#main-txt{
+    color:white;
+    position: absolute;
+    top: 55%;
+    margin-left: 112px;
+    font-family: sans-serif;
+}
+#main-txt1{
+    color:white;
+    position: absolute;
+    top: 51%;
+    margin-left: 208px;
+}
+#icons{
+    position: absolute;
+    color: white;
+    margin-left: 36px;
+    top:93px;
+    position: fixed;
+}
+
+#icon-leng{
+    margin-top: 60px;
+    font-size: 18px;
+}
+#icon-leng:hover{
+    color: white;
+    transition: 0.6s;   
+    transform: scale(1.6); 
+    width: 25px;
+    
+}
+#top1{
+    position: absolute;
+    top: 735px;
+    left: 98px;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+.tab1-img{
+    height: 245px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.tab1-img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    
+}
+#tab1{
+
+    margin-left: 45px;
+    margin-top: 710px;
+}
+#top2{
+    margin-top:20px ;
+    margin-left: 98px;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+#tab2{
+    margin-left: 69px;
+    margin-top: -5px;
+}
+.tab2-img{
+    height: 145px;
+    margin-left: 25px;
+    margin-top:20px ;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.tab2-txt{
+    color: white;
+    margin-left: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: sans-serif;
+}
+.tab2-data:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#top3{
+    margin-top:21px ;
+    margin-left: 97px;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+.tab3-img{
+    height: 245px;
+    margin-left: 50px;
+    margin-top:20px ;
+    border-radius: 5px;
+
+}
+#tab3{
+    margin-left: 45px;
+    margin-top: -4px;
+}
+.tab3-img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.tab4-img{
+    
+    height: 245px;
+    margin-left: 50px;
+    margin-top:20px ;
+    border-radius: 5px;
+
+}
+#tab4{
+    margin-left: 45px;
+    margin-top: -5px;
+}
+.tab4-img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#total{
+    margin-top: 200px;
+}
+#header1{
+    font-size: 60px;
+font-weight: 800;
+text-align: center;
+color: whitesmoke;
+border-radius: 30px;
+}
+
+#icon-a{
+    position: absolute;
+    top: 14.5px;
+    left: 1050px;
+    
+}
+.icon{
+    height: 35px;
+    width: 100px;
+    border-radius: 16px;
+    margin-left: 10px;
+    background: rgba(245, 245, 245, 0.897);
+    color:black;
+    
+}
+.icon:hover{
+    cursor: pointer;
+font-size: 15px;
+color:black;
+text-decoration: none;
+transition: all 0.8s;
+font-weight:600;
+transition: 0.5s;
+}
+#t2{
+margin-top: 10px;
+}
+#t3{
+    margin-top: 10px;
+}

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgba(0, 0, 0, 0.948);
+}
+#title{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+    
+}
+
+.naukri{
+    height: 245px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.naukri:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    
+}
+#nauk{
+    margin-top:30px;
+    margin-left: 629px;
+    
+}
+#txt{
+    color: rgba(245, 245, 245, 0.803);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    font-size: 16px;
+}
+#button{
+    /* font-size: x-large;
+    height: 50px;
+    width: 340px;
+    margin-left: 600px;
+    margin-top: 70px;
+    color: blue;
+    background-color:rgba(255, 255, 255, 0.895);
+    border-radius: 30px; */
+    position: absolute;
+    background:white;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-left: 645px;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+}
+#button:hover{
+    cursor: pointer;
+    background: #1d0db2;
+    color: rgb(198, 185, 185);
+    font-size: 21px;
+    transition: 0.5s;
+}
+#cross{
+    position: absolute;
+    color: rgba(245, 245, 245, 0.803);
+    font-size: 25px;
+    top: 31.5px;
+    left: 1480px;
+
+}
+
+

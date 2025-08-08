@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="moviehome.css">
+    <title>Movies</title>
+</head>
+<body>
+    <div>
+        <div>
+            <p id="title">Movies</p>
+        </div>
+        <div>
+            <input id="search-bar"  type="text"  > <p id="search">Movies,shows and More</p>
+            <p id="search-icon"><i class="fa-solid fa-magnifying-glass"></i></p>
+        </div>
+        <div>
+            <a href="/HTML/movie/collections/MS Dhoni.html"><img id="msd" src="/Movie img 1/1375333-i-e44f367bc7fa.webp" alt=""></a>
+            <!-- <img id="msd1" src="/IMAGES/Movies/dhoni.webp" alt=""> -->
+        </div>
+        <div id="total">
+            <div id="row1">
+                <table id="tab3">
+                    <tr>
+                        <td><a href="/HTML/movie/collections/mr&mrs.html"><img class="tab3-img" src="/Movie img 1/akka.png" alt=""></a></td>
+                        <td><a href="/HTML/movie/collections/Infinitywar.html"><img class="tab3-img" src="/Movie img 1/ang3.png" alt=""></a></td>
+                        <td><a href="/HTML/movie/collections/vikram.html"><img class="tab3-img" src="/Movie img 2/vikram.png" alt=""></a></td>
+                        <td><a href="/HTML/movie/collections/MS Dhoni.html"><img class="tab3-img" src="/Movie img 2/msd.webp" alt=""></a></td>
+                        <td><a href="/HTML/movie/collections/Atrangi Re.html"><img class="tab3-img" src="/Movie img 2/dhanush.png" alt=""></a></td>
+                        <td><a href="/HTML/movie/collections/Guardians of the Galaxy.html"><img class="tab3-img" src="/Movie img 1/avg2.png" alt=""></a></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <table id="tab3">
+                    <tr>
+                        <td><a href="/HTML/movie/collections/loki.html"><img class="tab3-img" src="/Movie img 1/avg6.png" alt=""></a></td>
+                        <td><a href="/HTML/movie/collections/King of Kotha.html"><img class="tab3-img" src="/Movie img 2/king.png" alt=""></a></td>
+                        <td><a href="/HTML/movie/collections/Captain Marvel.html"><img class="tab3-img" src="/Movie img 1/capt.png" alt=""></a></td>
+                        <td><a href="/HTML/movie/collections/Hridayam.html"><img class="tab3-img" src="/Movie img 2/love.png" alt=""></a></td>
+                        <td><a href="/HTML/movie/collections/The Jungle Book.html"><img class="tab4-img" src="/Movie img 2/d4.png" alt=""></a></td>
+                        <td><a href="/HTML/movie/collections/"></a><img class="tab3-img" src="/Movie img 1/action.png" alt=""></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <a href="/HTML/movie/moviehome.html"><i id="cross" class="fa-solid fa-xmark"></i></a>
+            </div>
+    
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgba(0, 0, 0, 0.948);
+}
+#title{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+#search-bar{
+    height: 50px;
+    width: 1000px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 266px;
+}
+#search{
+    position: absolute;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.622);
+    top: 16%;
+    left: 320px;
+}
+#search-icon{
+    position: absolute;
+    color:rgba(0, 0, 0, 0.622);
+    font-size: 25px;
+    top: 16%;
+    left: 280px;
+    
+}
+#msd{
+    margin-top: 40px;
+    height: 600px;
+    width: 1200px;
+    border: white solid;
+    border-radius: 20px;
+    margin-left: 157px;
+}
+#msd1{
+    position: absolute;
+    height:75px;
+    top: 350px;
+    left:190px ;  
+}
+#total{
+    margin-top:20px;
+}
+#cross{
+    position: absolute;
+    color: rgba(245, 245, 245, 0.803);
+    font-size: 25px;
+    top: 31.5px;
+    left: 1480px;
+
+}
+
+
+
+
+
+    </style>
+    <script>
+        
+// slideshow
+window.onload = function ()
+{
+    var s_image = [
+    "/Movie img 1/1375333-i-e44f367bc7fa.webp",
+    "/Movie img 1/cars.webp",
+    "/Movie img 2/harry.jpg",
+    "/Movie img 2/theeran1.webp",
+    "/Movie img 1/avenger1.webp",
+    "/Movie img 1/12 fail.webp",
+    ];
+
+    var I_image1 = 0
+    var imagefun = document.getElementById("msd")
+
+    function nextimage1() {
+    I_image1++
+    if (I_image1 >=s_image.length) {  
+        I_image1 = 0 
+    }
+    imagefun.src = s_image[I_image1]
+
+    }
+    setInterval(nextimage1,3000)
+}
+    </script>
+</body>
+</html>
